@@ -1,0 +1,22 @@
+.index{
+    display: flex;
+    flex-direction: row;
+
+    &__container{
+        font-size: 1rem;
+        // border: 1px solid green;
+        width: fit-content;
+        padding: 20px;
+    }
+
+    &__name{
+        // border: 1px solid red;
+        width: fit-content;
+    }
+    &__googleImg{
+        max-width: 200px;
+        max-height: 200px;
+        // border: 1px solid #000;
+
+    }
+}
